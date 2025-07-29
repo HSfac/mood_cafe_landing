@@ -1,0 +1,48 @@
+{
+  "name": "mood_cafe_landing",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "cafe",
+    "franchise",
+    "landing",
+    "nextjs"
+  ],
+  "author": "Mood Cafe Team",
+  "license": "MIT",
+  "description": "카페 프랜차이즈 홍보사이트",
+  "dependencies": {
+    "@headlessui/react": "^1.7.0",
+    "@heroicons/react": "^2.0.0",
+    "@tailwindcss/typography": "^0.5.16",
+    "@tanstack/react-query": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "autoprefixer": "^10.0.0",
+    "clsx": "^2.0.0",
+    "framer-motion": "6.5.1",
+    "next": "^14.2.30",
+    "postcss": "^8.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.0.0",
+    "react-hot-toast": "^2.4.0",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "prettier": "^3.0.0"
+  }
+}
