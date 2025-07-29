@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { 
   SparklesIcon, 
@@ -112,9 +113,11 @@ export default function BrandSection() {
             className="relative"
           >
             <div className="relative rounded-2xl overflow-hidden card-shadow">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
                 alt="Mood Cafe Interior"
+                width={800}
+                height={500}
                 className="w-full h-[500px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-green-main/30 to-transparent" />

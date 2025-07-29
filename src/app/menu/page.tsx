@@ -2,9 +2,9 @@
 
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import Image from 'next/image'
 import { motion } from 'framer-motion'
-import { useState } from 'react'
-import { ChevronLeftIcon, ChevronRightIcon, StarIcon } from '@heroicons/react/24/outline'
+import { StarIcon } from '@heroicons/react/24/outline'
 
 const menuCategories = [
   { id: 'signature', name: '시그니처', description: '무드카페만의 특별한 메뉴' },
@@ -129,9 +129,11 @@ function MenuCard({ item, index }: { item: any, index: number }) {
       className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group"
     >
       <div className="relative">
-        <img
+        <Image
           src={item.image}
           alt={item.name}
+          width={400}
+          height={192}
           className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
         />
         {item.badge && (

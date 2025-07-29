@@ -2,6 +2,7 @@
 
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { 
   MapPinIcon, 
@@ -178,9 +179,11 @@ export default function StoresPage() {
                   className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300"
                 >
                   <div className="relative">
-                    <img
+                    <Image
                       src={store.image}
                       alt={store.name}
+                      width={400}
+                      height={192}
                       className="w-full h-48 object-cover"
                     />
                     <div className="absolute top-4 left-4 bg-green-main text-white px-3 py-1 rounded-full text-sm font-medium">

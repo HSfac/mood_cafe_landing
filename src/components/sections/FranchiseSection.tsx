@@ -183,7 +183,7 @@ export default function FranchiseSection() {
                   ))}
                 </div>
                 <p className="text-gray-700 mb-6 leading-relaxed italic">
-                  "{testimonial.comment}"
+                  &ldquo;{testimonial.comment}&rdquo;
                 </p>
                 <div className="flex justify-between items-center">
                   <div>

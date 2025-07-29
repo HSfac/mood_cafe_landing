@@ -2,15 +2,11 @@
 
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { 
-  ChartBarIcon, 
-  AcademicCapIcon, 
-  ShieldCheckIcon, 
-  CurrencyDollarIcon,
   CheckCircleIcon,
   MapPinIcon,
-  PhoneIcon,
   ClockIcon 
 } from '@heroicons/react/24/outline'
 
@@ -208,9 +204,11 @@ export default function FranchisePage() {
                   viewport={{ once: true }}
                   className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300"
                 >
-                  <img
+                  <Image
                     src={store.image}
                     alt={store.type}
+                    width={400}
+                    height={192}
                     className="w-full h-48 object-cover"
                   />
                   <div className="p-6">
@@ -269,9 +267,11 @@ export default function FranchisePage() {
                   viewport={{ once: true }}
                   className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300"
                 >
-                  <img
+                  <Image
                     src={store.image}
                     alt={store.name}
+                    width={400}
+                    height={192}
                     className="w-full h-48 object-cover"
                   />
                   <div className="p-6">

@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Image from 'next/image'
 import { motion, AnimatePresence } from 'framer-motion'
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/outline'
 
@@ -145,7 +146,7 @@ export default function MenuSection() {
 
         {/* 메뉴 아이템들 */}
         <div className="relative">
-          <AnimatePresence mode="wait">
+          <AnimatePresence>
             <motion.div
               key={`${activeCategory}-${currentSlide}`}
               initial={{ opacity: 0, x: 50 }}
@@ -163,9 +164,11 @@ export default function MenuSection() {
                   className="bg-white rounded-2xl overflow-hidden card-shadow hover:shadow-2xl transition-shadow duration-300 group"
                 >
                   <div className="relative">
-                    <img
+                    <Image
                       src={item.image}
                       alt={item.name}
+                      width={400}
+                      height={192}
                       className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                     />
                     {item.badge && (
