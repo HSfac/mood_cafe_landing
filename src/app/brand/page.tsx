@@ -74,14 +74,14 @@ export default function BrandPage() {
       
       <main className="pt-20">
         {/* 히어로 섹션 */}
-        <section className="relative h-[60vh] flex items-center justify-center text-gray-900">
-          <div className="absolute inset-0 bg-white" />
+        <section className="relative h-[60vh] flex items-center justify-center text-white">
           <div 
             className="absolute inset-0 bg-cover bg-center"
             style={{
               backgroundImage: `url('https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80')`
             }}
           />
+          <div className="absolute inset-0 bg-black/40" />
           <div className="relative z-10 text-center container-width px-4">
             <motion.h1 
               initial={{ opacity: 0, y: 30 }}

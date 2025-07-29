@@ -194,14 +194,14 @@ export default function MenuPage() {
       
       <main className="pt-20">
         {/* 히어로 섹션 */}
-        <section className="relative h-[50vh] flex items-center justify-center text-gray-900">
-          <div className="absolute inset-0 bg-white" />
+        <section className="relative h-[50vh] flex items-center justify-center text-white">
           <div 
             className="absolute inset-0 bg-cover bg-center"
             style={{
               backgroundImage: `url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80')`
             }}
           />
+          <div className="absolute inset-0 bg-black/40" />
           <div className="relative z-10 text-center container-width px-4">
             <motion.h1 
               initial={{ opacity: 0, y: 30 }}
