@@ -218,7 +218,7 @@ export default function FranchiseSection() {
             <Link href="/startup" className="btn-secondary bg-white text-green-main border-white hover:bg-gray-50">
               창업 상담 신청
             </Link>
-            <Link href="/stores" className="btn-secondary border-white text-white hover:bg-white/10">
+            <Link href="/stores" className="btn-secondary bg-white/20 border-white text-white hover:bg-white/30 backdrop-blur-sm">
               매장 둘러보기
             </Link>
           </div>

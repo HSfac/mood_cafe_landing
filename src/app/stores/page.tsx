@@ -321,7 +321,7 @@ export default function StoresPage() {
                 </a>
                 <a
                   href="/contact"
-                  className="btn-secondary border-white text-white hover:bg-white/10"
+                  className="btn-secondary bg-white/20 border-white text-white hover:bg-white/30 backdrop-blur-sm"
                 >
                   매장 제안하기
                 </a>

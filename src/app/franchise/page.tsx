@@ -341,13 +341,13 @@ export default function FranchisePage() {
                 </a>
                 <a
                   href="/stores"
-                  className="btn-secondary border-white text-white hover:bg-white/10"
+                  className="btn-secondary bg-white/20 border-white text-white hover:bg-white/30 backdrop-blur-sm"
                 >
                   매장 찾기
                 </a>
                 <a
                   href="/contact"
-                  className="btn-secondary border-white text-white hover:bg-white/10"
+                  className="btn-secondary bg-white/20 border-white text-white hover:bg-white/30 backdrop-blur-sm"
                 >
                   문의하기
                 </a>

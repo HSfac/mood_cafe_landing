@@ -278,7 +278,7 @@ export default function BrandPage() {
                 </a>
                 <a
                   href="/franchise"
-                  className="btn-secondary border-white text-white hover:bg-white/10"
+                  className="btn-secondary bg-white/20 border-white text-white hover:bg-white/30 backdrop-blur-sm"
                 >
                   가맹점 정보 보기
                 </a>

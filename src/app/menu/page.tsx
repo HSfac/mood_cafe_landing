@@ -284,7 +284,7 @@ export default function MenuPage() {
                 </a>
                 <a
                   href="/startup"
-                  className="btn-secondary border-white text-white hover:bg-white/10"
+                  className="btn-secondary bg-white/20 border-white text-white hover:bg-white/30 backdrop-blur-sm"
                 >
                   창업 문의
                 </a>
